@@ -169,7 +169,7 @@ jobs:
                                   
   make-release:
     name: Make Release
-    needs: [ build-windows, build-linux, build-docker]
+    needs: [ build-windows, build-linux, build-docker ]
     runs-on: ubuntu-20.04
 
     steps:
