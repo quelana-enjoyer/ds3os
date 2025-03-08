@@ -19,7 +19,7 @@ with lib;
 
 let
     pkg = stdenv.mkDerivation rec {
-        name = "ds3os";
+        name = "ds3os_custom";
 
         src = with fileset; toSource {
             root = ./.;
